@@ -18,6 +18,7 @@ def main():
     while True:
         scelta = menu()
 
+
         if scelta == "1":
             nuovo_responsabile = input("Inserisci il nuovo responsabile: ")
             deposito.responsabile = nuovo_responsabile

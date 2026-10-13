@@ -1,6 +1,7 @@
 from operator import attrgetter
 
 
+
 class Strumento:
     def __init__(self, id_strumento, tipo, marca, anno, valore):
         self.id_strumento = id_strumento
